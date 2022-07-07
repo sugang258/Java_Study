@@ -46,11 +46,9 @@ public class Loop1_ex2 {
 			System.out.println("PW를 입력하세요");
 			int pw = sc.nextInt();
 			
-			if(yId == id) {
-				if (yPw == pw) {
+			if(yId == id && yPw == pw) {
 					System.out.println("로그인 성공");
 					break;
-				}
 			}else {
 				System.out.println("정보가 맞지 않습니다.");
 			}
