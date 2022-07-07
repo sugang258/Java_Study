@@ -15,8 +15,10 @@ public class Control3 {
 			System.out.println("1 선택");
 		}else if(select ==2) {
 			System.out.println("2 선택");
-		}else {
+		}else if(select == 3){
 			System.out.println("3 선택");
+		}else {
+			System.out.println("1-3 숫자를 입력해주세요.");
 		}
 
 	}
