@@ -35,6 +35,7 @@ public class Loop1_ex2 {
 		//3.  ID, PW를 입력해서 로그인 판단
 		//	최대 5번까지 시도 가능
 		//	로그인이 성공하면 그 즉시 종료
+		
 		int yId = 1234; //회원가입시 입력한 ID
 		int yPw = 5678; //회원가입시 입력한 PW
 		
@@ -44,6 +45,7 @@ public class Loop1_ex2 {
 			
 			System.out.println("PW를 입력하세요");
 			int pw = sc.nextInt();
+			
 			if(yId == id) {
 				if (yPw == pw) {
 					System.out.println("로그인 성공");
@@ -52,12 +54,6 @@ public class Loop1_ex2 {
 			}else {
 				System.out.println("정보가 맞지 않습니다.");
 			}
-			
-			
 		}
-		
-		
-
 	}
-
 }
