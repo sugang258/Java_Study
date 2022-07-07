@@ -9,7 +9,6 @@ public class Loop1_ex2 {
 		//1. 1번 대문자, 2번 소문자
 		//	1번이면 A-Z 출력
 		//	2번이면 a-z 출력
-		
 		int a = 0;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("1,2 중 숫자를 입력하세요.");
@@ -24,6 +23,20 @@ public class Loop1_ex2 {
 				System.out.print(i + " ");
 			}
 		}
+		
+		/*
+		 * int i = 97;
+		 * int j = 123;
+		 * 
+		 * if(a == 1) {
+		 * i = 65;
+		 * j = 91;
+		 * }
+		 * 
+		 * for(int c = i ; c <= j; i++) {
+		 * System.out.println(i);
+		 * }
+		 */
 		
 		//2. 1-10까지의 합 구하기
 		int b = 0;
