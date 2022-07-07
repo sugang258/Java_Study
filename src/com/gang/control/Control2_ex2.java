@@ -31,6 +31,9 @@ public class Control2_ex2 {
 	
 		System.out.println(result);
 		
+		//추가추가
+		//추추추추추가가가가가가
+		
 		
 		
 	}
