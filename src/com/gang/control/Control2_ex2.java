@@ -22,19 +22,15 @@ public class Control2_ex2 {
 		
 		if(num<= 5 && num >=1) {
 				result = (char) (ch + num);
-		}if ((int)result > 123) {
+		}if ((int)result > 'z') {
 			result = (char) (result - 26);
-		}
-		else {
+		}if ((int)result >'Z' && result < 'a') {
+			result = (char)(result - 26);
+		}else {
 			System.out.println("1-5사이의 숫자를 입력해주세요");
 		}
 	
 		System.out.println(result);
-		
-		//추가추가
-		//추추추추추가가가가가가
-		
-		
 		
 	}
 
