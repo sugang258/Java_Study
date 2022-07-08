@@ -59,34 +59,30 @@ public class Loop5_ex1 {
 		 * ...
 		 * 레벨 14 -> 15 : 42마리
 		 * 
-		 * 5렙 달성시 축하금으로 1000gold 지급
-		 * 10렙 달설 시 축하금으로 2000gold 지급
+		 * 5렙 달성 시 축하금으로 1000gold 지급
+		 * 10렙 달성 시 축하금으로 2000gold 지급
 		 * 15렙 달성 시 축하금으로 3000gold 지급
 		 */
-		
+		System.out.println("게임시작");
 		while(login) {
-			for(int i = 1 ; i <15; i++) {
+			for(int i = 1 ; i <=15; i++) {
 				
-				for (int b = 1 ; b <= i*3 ; b++) {
+				for (int b = 1 ; b <= ((i-1)*3) ; b++) {
 	
 					System.out.print(" 사냥 " + "경험치 " + b);
 				}
-				System.out.println(" 레벨 업!!! 현재 레벨 : " + (i+1));
+
+				if(i>1)
+				System.out.println(" 레벨 업!!! 현재 레벨 : " + i);
 			
-				/*
-				if(i == ) {
+				
+				if(i % 5 == 0) {
 					System.out.println("레벨업 보상 " + i * 200 +" gold 지급" );
 					gold =gold + i * 200;
 					System.out.println("현재 보유 gold : " + gold + "gold" );
-				
 				}
-				*/
 		}
 			break;
-		
 		}
-		
-
 	}
-
 }
