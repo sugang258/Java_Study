@@ -31,71 +31,91 @@ public class Loop5_ex2 {
 		
 		switch (c) {
 		case 0 :
-			/*
+			
 			switch(num) {
 			case 0 :
 				System.out.println("비겼습니다");
+				break;
 			case 1 :
 				System.out.println("졌습니다");
+				break;
 			case 2 : 
 				System.out.println("이겼습니다");
+				check =! check;
 				break;
 				
 
 			}
-			*/
+			
+			/*
 			if(num == 2) {
 				System.out.println("이겼습니다");
+				check =! check;
 				break;
 			}else if (num == 0) {
 				System.out.println("비겼습니다");
 			}else {
 				System.out.println("졌습니다.");
 			}
+			break;
+			*/
 			
 		case 1 :
-			/*
+			
 			switch(num) {
 			case 0 :
 				System.out.println("이겼습니다");
+				check =! check;
 				break;
 			case 1 :
 				System.out.println("비겼습니다");
+				break;
 			case 2 :
 				System.out.println("졌습니다");
+				break;
+			}
+			
+			/*
+			if(num == 2) {
+				System.out.println("졌습니다");
+			}else if (num == 0) {
+				System.out.println("이겼습니다");
+				check =! check;
+				break;
+			}else {
+				System.out.println("비겼습니다.");
 			}
 			*/
-			if(num == 2) {
-				System.out.println("이겼습니다");
-				break;
-			}else if (num == 0) {
-				System.out.println("비겼습니다");
-			}else {
-				System.out.println("졌습니다.");
-			}
+			break;
 			
 		case 2 :
-			/*
+			
 			switch(num) {
 			case 0 :
 				System.out.println("졌습니다");
 				break;
 			case 1 :
 				System.out.println("이겼습니다");
+				check =! check;
 				break;
 			case 2 :
 				System.out.println("비겼습니다");
+				break;
+			}
+			
+			/*
+			if(num == 2) {
+				System.out.println("비겼습니다");
+			}else if (num == 0) {
+				System.out.println("졌습니다");
+			}else {
+				System.out.println("이겼습니다.");
+				check != check;
+				break;
+
 			}
 			*/
-			
-			if(num == 2) {
-				System.out.println("이겼습니다");
-				break;
-			}else if (num == 0) {
-				System.out.println("비겼습니다");
-			}else {
-				System.out.println("졌습니다.");
-			}
+			break;
 		}
 	}
 	}
