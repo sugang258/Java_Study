@@ -17,16 +17,22 @@ public class Loop4_ex1 {
 		System.out.println("초를 입력하세요");
 		sec = sc.nextInt();
 		
-		for(int m=1;m<60;m++) {
-			for(int s=0;s<60;s++) {
+		boolean flag = false;
+		
+		
+		
+		for(int m=0; m<60 ; m++) {
+			for(int s=0; s<60 ; s++) {
 				System.out.println(m +"분 :" + s +"초");
 				if(m==min && s ==sec) {
+					flag =! flag;
+					m=60;
 					break;
 				
 		}
 				
 		}
-			if(m == min) break;
+			//if(m == min) break;
 	}
 }
 }
