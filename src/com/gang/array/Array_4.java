@@ -10,7 +10,7 @@ public class Array_4 {
 		
 		int [] nums = new int [4];
 		
-		for(int i =0; i<4; i++) {
+		for(int i =0; i<nums.length; i++) {
 			System.out.println(i + " 번 인덱스 값 입력");
 			nums[i] = sc.nextInt();
 		}
